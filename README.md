@@ -30,3 +30,9 @@ First Script called RubyController is made in this section of the tutorial.  One
 When making a new script in the Unity project window, the class is called something other than the class.  So even if you rename the script in that window, you need to make sure to change the class name as well.  (public class ClassName)
 
 ## Part 02 Character Contol and Keyboard Input
+
+### 2022TutorialPart02CharacterControlAndKeyboardInput branch
+
+The Project Settings setting to change is Input Manager.  You need to expand the Axes by clicking on the triangle by Axes.  When you change the code, use the speed you used in the previous part of the tutorial instead of going back up to 0.1f * horizontal.  The sensitivity is still the same as it was before.
+
+The script changes are straightforward.  The Time.deltaTime is a very cool thing to make things go the correct speed.  I kept the commented lines just for fun.  And probably because I do not like deleting lines of code.  I also put the original speeds in and commented those lines so that I would remember what I did since I have only one GitHub change for this branch.

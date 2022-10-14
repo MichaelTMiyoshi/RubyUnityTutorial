@@ -48,3 +48,7 @@ The first thing to do is create a 2D object called a tilemap.  The tilemap has s
 I selected Create->2D->Tiles->Rule Tile.  It seems that this is something new in 2021.3.10f1.  Or at least it seems new since the last time I did the tutorial.  I used the recommended 2020.3 editor.  This worked.
 
 The next part of the tutorial says that you are supposed to get the tile and make it the sprite for the FirstTile.  This takes a little more effort than suggested.  Downloading and moving the file into the Unity project is pretty simple.  Follow the directions and put the file in the correct folder (Sprites).  The thing is that the tutorial seems to imply that just bringing the .png file into the editor creates a sprite.  But this is not the case.  You need to do the same thing that you did with Ruby.  That is, you need to look at the file through the Inspector in Unity and make sure that it is a sprite.  But that is not all.  You then need to drag the file into the heirachary after doing so.  This does do the importing and make the .png file into a sprite.  (That along with making it a sprite in the inspector.) Then, you can finally follow the instructions in the tutorial to make FirstTile hole the Tile sprite.
+
+When you slice any of the tiles, there is now a new method.  So I chose the Smart method over the Delete Existing method.  I chose it because I was somewhat forced to do so.
+
+Painting with the tiles is easy once you get all the tilemaps split up with the editor and put into the palette.

@@ -36,3 +36,15 @@ When making a new script in the Unity project window, the class is called someth
 The Project Settings setting to change is Input Manager.  You need to expand the Axes by clicking on the triangle by Axes.  When you change the code, use the speed you used in the previous part of the tutorial instead of going back up to 0.1f * horizontal.  The sensitivity is still the same as it was before.
 
 The script changes are straightforward.  The Time.deltaTime is a very cool thing to make things go the correct speed.  I kept the commented lines just for fun.  And probably because I do not like deleting lines of code.  I also put the original speeds in and commented those lines so that I would remember what I did since I have only one GitHub change for this branch.
+
+## Part 03 World Design - Tilemaps
+
+### 2022TutorialPart03WorldDesignTilemaps branch
+
+This part of the tutorial has caused me difficulties in the past.  And it has surely caused difficulties with my students.  Part of this is because the pictures are based on a much earlier version of the Unity editor.  Probably 2 or 3 iterations before the current editor.  Or even the editor that they suggest (2020.3).
+
+The first thing to do is create a 2D object called a tilemap.  The tilemap has several choices (which the tutorial does not show because the earlier versions had only a single tilemap available).  For Ruby, we need to choose Rectangular.  The good thing about choosing rectangular is that the grid shows up just like the tutorial tells us it will.  The heirarchy also shows up the way it says it should.  The problem comes after creating the tilemap.
+
+I selected Create->2D->Tiles->Rule Tile.  It seems that this is something new in 2021.3.10f1.  Or at least it seems new since the last time I did the tutorial.  I used the recommended 2020.3 editor.  This worked.
+
+The next part of the tutorial says that you are supposed to get the tile and make it the sprite for the FirstTile.  This takes a little more effort than suggested.  Downloading and moving the file into the Unity project is pretty simple.  Follow the directions and put the file in the correct folder (Sprites).  The thing is that the tutorial seems to imply that just bringing the .png file into the editor creates a sprite.  But this is not the case.  You need to do the same thing that you did with Ruby.  That is, you need to look at the file through the Inspector in Unity and make sure that it is a sprite.  But that is not all.  You then need to drag the file into the heirachary after doing so.  This does do the importing and make the .png file into a sprite.  (That along with making it a sprite in the inspector.) Then, you can finally follow the instructions in the tutorial to make FirstTile hole the Tile sprite.

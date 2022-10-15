@@ -52,3 +52,11 @@ The next part of the tutorial says that you are supposed to get the tile and mak
 When you slice any of the tiles, there is now a new method.  So I chose the Smart method over the Delete Existing method.  I chose it because I was somewhat forced to do so.
 
 Painting with the tiles is easy once you get all the tilemaps split up with the editor and put into the palette.
+
+## Part 04 Decorating the World
+
+### 2022TutorialPart04DecoratingTheWorld branch
+
+The pivots are straightforward.
+
+The first difference comes in when trying to double clicking on the prefab to edit it.  Instead, click on the right pointing arrow (>) next to the prefab in the heirarchy.  This will let you edit the prefab.  What you do to the prefab gets done to all the prefabs of that kind.

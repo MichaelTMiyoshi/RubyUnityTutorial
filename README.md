@@ -60,3 +60,13 @@ Painting with the tiles is easy once you get all the tilemaps split up with the 
 The pivots are straightforward.
 
 The first difference comes in when trying to double clicking on the prefab to edit it.  Instead, click on the right pointing arrow (>) next to the prefab in the heirarchy.  This will let you edit the prefab.  What you do to the prefab gets done to all the prefabs of that kind.
+
+## Part 05 World Interactions
+
+### 2022TutorialPart05WorldInteractions branch
+
+The gravity in the Rigidbody 2D is straightforward.  The most interesting thing is making Ruby into a prefab.  At least in the beginning.
+
+The tilemaps can be made into colliders.  This part of the tutorial is straightforward.  The one thing that I did see was that when selecting tiles to change the non-water tiles Collider Type from Sprite to None, there are Textures and Mono Behaviours.  You need to make sure the Mono Behaviours are the only ones selected.  Just use the control key (PC) or command key (Mac) to deselect the textures.  Which is not trivial.  Some of the textures do not have the little triangle to show that they are textures instead of Mono Behaviours.
+
+The Composite Collider 2D is a pretty slick deal.  Just need to check the box in Tilemap Collider 2D that says Used By Composite.  Then in the Rigidbody 2D that the Composite Collider 2D adds, make sure the Body Type is Static.  That will make it so that the tiles (the world) does not move.

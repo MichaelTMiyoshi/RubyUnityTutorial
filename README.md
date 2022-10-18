@@ -61,7 +61,7 @@ The pivots are straightforward.
 
 The first difference comes in when trying to double clicking on the prefab to edit it.  Instead, click on the right pointing arrow (>) next to the prefab in the heirarchy.  This will let you edit the prefab.  What you do to the prefab gets done to all the prefabs of that kind.
 
-## Part 05 World Interactions
+## Part 05 World Interactions - Blocking Movement
 
 ### 2022TutorialPart05WorldInteractions branch
 

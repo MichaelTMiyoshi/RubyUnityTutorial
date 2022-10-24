@@ -70,3 +70,11 @@ The gravity in the Rigidbody 2D is straightforward.  The most interesting thing 
 The tilemaps can be made into colliders.  This part of the tutorial is straightforward.  The one thing that I did see was that when selecting tiles to change the non-water tiles Collider Type from Sprite to None, there are Textures and Mono Behaviours.  You need to make sure the Mono Behaviours are the only ones selected.  Just use the control key (PC) or command key (Mac) to deselect the textures.  Which is not trivial.  Some of the textures do not have the little triangle to show that they are textures instead of Mono Behaviours.
 
 The Composite Collider 2D is a pretty slick deal.  Just need to check the box in Tilemap Collider 2D that says Used By Composite.  Then in the Rigidbody 2D that the Composite Collider 2D adds, make sure the Body Type is Static.  That will make it so that the tiles (the world) does not move.
+
+## Part 06 World Interactions - Collectibles
+
+### 2022TutorialPart06WorldInteractions-Collectibles branch
+
+The property stuff is a bit different than beginning programmers have usually dealt with.  So make sure to read through the tutorial to understand what it is talking about.
+
+Making the sprite into a prefab would be the only other thing that might be different from other versions of the tutorial.  In past versions, you had to make a prefab, but the original game object in the heirarchy still stayed a regular game object.  Now, when you make a game object into a prefab, even that original game object is a prefab.  Nice fix on Unity's part.

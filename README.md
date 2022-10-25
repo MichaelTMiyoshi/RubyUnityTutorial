@@ -78,3 +78,13 @@ The Composite Collider 2D is a pretty slick deal.  Just need to check the box in
 The property stuff is a bit different than beginning programmers have usually dealt with.  So make sure to read through the tutorial to understand what it is talking about.
 
 Making the sprite into a prefab would be the only other thing that might be different from other versions of the tutorial.  In past versions, you had to make a prefab, but the original game object in the heirarchy still stayed a regular game object.  Now, when you make a game object into a prefab, even that original game object is a prefab.  Nice fix on Unity's part.
+
+## Part 07 World Interactions - Damage Zones and Enemies
+
+### 2022TutorialPart07WorldInteractions-DamageZones branch
+
+The tutorial says to use what you have learned before.  This does not mean that you need to do it all from memory, but the more you can do with just a glance back to older stuff, the more it is in your brain.  I looked at the HealthCollectible.cs file to create my DamageZone.cs file.  The adding of RigidBody2D collider (trigger) and the script was easy to remember (this time through).  I also made the damageable a prefab (after I wrote the code and tested it).
+
+The tiling of the sprite for the DamageZone needs to be changed in the prefab, but the Damageable import settings are in the sprite itself.
+
+Added the bot.  It gets easier to remember how to do things like adding box collider and rigidbody components the more you do them.  Naturally.

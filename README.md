@@ -88,3 +88,21 @@ The tutorial says to use what you have learned before.  This does not mean that 
 The tiling of the sprite for the DamageZone needs to be changed in the prefab, but the Damageable import settings are in the sprite itself.
 
 Added the bot.  It gets easier to remember how to do things like adding box collider and rigidbody components the more you do them.  Naturally.
+
+The bot code is straightforward.  I did make a mistake of adding collision code into Ruby instead of the bot.  Once I fixed that, everything was hunky dory.
+
+I did have one observation.  I am not sure if it was something I was doing or not, but when I first addded the speed of the bot, it did not work.  The speed said it was zero in the inspector when I ran the code and looked at the bot.  This changed later, but I am not sure why.
+
+## Part 08 Sprite Animation
+
+### 2022TutorialPart08SpriteAnimation branch
+
+When in the Animation window, make sure the window is big enough to see the Create button and the message above it.  (To begin animating Bot, create an Animation Clip.)
+
+When dragging and dropping the sprites into the animation window, make sure to drop them into the right side with the timeline.  Look in the Unity project window to see the animation when playing the animation from the animation window, even though it seems that the pictures ought to show up in the animation window.  You can see the animation in the animation window (actually, you only see the different still frames and the timeline moving between them) by clicking the triangle next to the name of the sprite on the left part of the Animation window.  I could not find the sample rate when I was trying to change it as it said to do in the tutorial.  So I clicked on the three vertical dots next to the timeline and told the Animation windo to show it.  The sample rate then shows up on the left side of the Animation window.
+
+When making new animation clips, it may not be obvious where the name of the current animation is.  It is on the left side of the Animation window, below the Animation tab and the word "Preview."  The Samples will be to the name's right (see paragraph above if the Samples box is not visible).
+
+When doing the blend tree, I was looking for a node as it said in the tutorial.  The node is the box that says Blend Tree and has a slider labeled Blend with a box next to it.  Not what I expected a node to be.
+
+The Ruby script edits and such are straightforward.

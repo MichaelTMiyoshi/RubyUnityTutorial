@@ -106,3 +106,15 @@ When making new animation clips, it may not be obvious where the name of the cur
 When doing the blend tree, I was looking for a node as it said in the tutorial.  The node is the box that says Blend Tree and has a slider labeled Blend with a box next to it.  Not what I expected a node to be.
 
 The Ruby script edits and such are straightforward.
+
+## Part 09 World Interactions - Projectile
+
+### 2022TutorialPart09WorldInteractions-Projectile
+
+Null reference exception.  Note the fix for this error in the tutorial.  It is in section 6 of this part.  Change the Start() function to Awake().
+
+The layers and collisions is also important.
+
+The biggest part of this tutorial is probably changing the Start() funciton to Awake().  The rest is pretty straightforward.
+
+I have not done the fixed animation yet.  It is a nice addition, but I wanted to make sure I am getting the tutorial updated when I get to good stopping spots.  The tutorial says that the optional piece does not do anything for the game except make in terms of aesthetics.  Which in this case makes it more appealing (I remember from before.)

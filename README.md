@@ -118,3 +118,9 @@ The layers and collisions is also important.
 The biggest part of this tutorial is probably changing the Start() funciton to Awake().  The rest is pretty straightforward.
 
 I have not done the fixed animation yet.  It is a nice addition, but I wanted to make sure I am getting the tutorial updated when I get to good stopping spots.  The tutorial says that the optional piece does not do anything for the game except make in terms of aesthetics.  Which in this case makes it more appealing (I remember from before.)
+
+Okay.  On to the fixed animation.
+
+One thing that I noticed right off the bat was that adding a new clip is in the Animation window and not the Animator window.  Small, but important distinction.  Going back to the last tutorial section is a great reference.  Setting the condition for the animation is simple, but I forgot at first that I need to look in the inspector.  Which is a great thing to remember.  Many things are in the inspector.  Probably most things are in the inspector.
+
+The one line of code added to the script is simple.  It is fun to shoot the cog at the bot and see it doing its "I'm Fixed" dance.

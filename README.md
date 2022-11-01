@@ -124,3 +124,11 @@ Okay.  On to the fixed animation.
 One thing that I noticed right off the bat was that adding a new clip is in the Animation window and not the Animator window.  Small, but important distinction.  Going back to the last tutorial section is a great reference.  Setting the condition for the animation is simple, but I forgot at first that I need to look in the inspector.  Which is a great thing to remember.  Many things are in the inspector.  Probably most things are in the inspector.
 
 The one line of code added to the script is simple.  It is fun to shoot the cog at the bot and see it doing its "I'm Fixed" dance.
+
+## Part 10 Camera - Cinemachine
+
+### 2022TutorialPart10Camera-Cinemachine
+
+When installing Cinemachine, I had to look in the Packages: Unity Registry.  There is a triangle in the upper left corner of the Package Manager window (to the right of Packages:).  It will display: Unity Registry, In Project, My Assets, and Built-in.  I am not sure which one is displayed by default.
+
+Cinemachine is a menu item under Component once it is installed.  But to get a new camera, right click in the heirchy and add.  Cinemachine objects are now in the list.  The settings on the virtual camera may not be the same as the tutorial suggests.  I used Ortho Size of 3 after following Ruby.  I did not see the map until I followed Ruby.

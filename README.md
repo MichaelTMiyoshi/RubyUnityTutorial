@@ -132,3 +132,9 @@ The one line of code added to the script is simple.  It is fun to shoot the cog 
 When installing Cinemachine, I had to look in the Packages: Unity Registry.  There is a triangle in the upper left corner of the Package Manager window (to the right of Packages:).  It will display: Unity Registry, In Project, My Assets, and Built-in.  I am not sure which one is displayed by default.
 
 Cinemachine is a menu item under Component once it is installed.  But to get a new camera, right click in the heirchy and add.  Cinemachine objects are now in the list.  The settings on the virtual camera may not be the same as the tutorial suggests.  I used Ortho Size of 3 after following Ruby.  I did not see the map until I followed Ruby.
+
+Adding the Polygon Collider 2D to the CameraConfiner is a simple thing.  Make sure it is a PolygonCollider2D.  The tutorial shows only four or five options, but there are more.  The 2D collider is new.  The polygon strarts out as a pentagon.  To get rid of a vertex is actually strange.  You use the Command key (Mac) or the Control key (PC) to delete a vertex, but instead of clicking on the point you want to delete, you click on one of the lines connecting points.  This is an odd thing, but it works.
+
+The odd thing about the Cinemachine Polygon Collider 2D is that you change the layer and collisions in such a way that it appears it does not collide with anything.  But it does what it is supposed to do.  It stops the camera at the edge of the world.
+
+One thing I had to go back and remember was how to paint tiles.  The tile pallete is under a menu item.  Window -> 2D -> Tile Pallette.  Painting with the tile pallette is easy.  It is remembering how to add to the tile pallete that I will need to remember later.

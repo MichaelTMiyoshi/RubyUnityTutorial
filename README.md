@@ -138,3 +138,7 @@ Adding the Polygon Collider 2D to the CameraConfiner is a simple thing.  Make su
 The odd thing about the Cinemachine Polygon Collider 2D is that you change the layer and collisions in such a way that it appears it does not collide with anything.  But it does what it is supposed to do.  It stops the camera at the edge of the world.
 
 One thing I had to go back and remember was how to paint tiles.  The tile pallete is under a menu item.  Window -> 2D -> Tile Pallette.  Painting with the tile pallette is easy.  It is remembering how to add to the tile pallete that I will need to remember later.
+
+## Part 11 Visual Styling - Particles
+
+### 2022TutorialPart11VisualStyling-Particles

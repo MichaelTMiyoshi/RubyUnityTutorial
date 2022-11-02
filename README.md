@@ -148,3 +148,15 @@ The particles are straightforward.  The slicing of the sprites might be the thin
 Making prefabs is interesting.  The Smoke Effect and Ruby went out of the scene when I made them prefabs.  The gear had to be deleted.
 
 I did not add more particle systems to the game.
+
+## Part 12 Visual Styling - User Interface - HUD
+
+### 2022TutorialPart12VisualStyling-UI-HUD
+
+The health bar resizing and anchoring stuff works fine.  The wording of the image (of Ruby) for the health bar is not quite clear.  The Rect Transform anchor box is in the top left corner of the Rect Transform in the Inspector.  When changing the corner anchor points, you need to click that upper left corner square box and when that box expands, select the lower right corner.  This will make the corner anchor points editable like the animation shows.
+
+When trying to move the pivot, the animation might be misleading.  The blue dot in the middle is not the pivot.  The pivot is best changed by the anchor point box.  Hold the shift key to change the pivot to be on the left corner.  You will see the pivot (something that looks like a transparent X) outside the white mask.  Then, release the shift key to move the anchor corners.  Not especially intuitive, but it ought to work.
+
+At first, I just added the image to the mask.  Then, I read the instructions again and added a child image to the mask.  That seemed to work out well.  Following the directions to set the pivot and location worked well.  I did need to move the image a little.
+
+Not sure why the masking is not working.  I must have missed a step.  I will check again.  This is the ending of step 10 of this section of the tutorial.  Will continue again to see what is happening and where I missed a step or misread a step.

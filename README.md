@@ -142,3 +142,9 @@ One thing I had to go back and remember was how to paint tiles.  The tile pallet
 ## Part 11 Visual Styling - Particles
 
 ### 2022TutorialPart11VisualStyling-Particles
+
+The particles are straightforward.  The slicing of the sprites might be the thing that needs to be reviewed.  By the way, when the tutorial says click on a circle in the Inspector, it means the check boxes on the left.
+
+Making prefabs is interesting.  The Smoke Effect and Ruby went out of the scene when I made them prefabs.  The gear had to be deleted.
+
+I did not add more particle systems to the game.

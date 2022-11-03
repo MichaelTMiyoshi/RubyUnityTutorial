@@ -184,3 +184,7 @@ Okay.  What this means is fairly straight forward.  I just had to read it a bunc
 Start by selecting Jambi.  Make sure you are in the prefab editing mode.  You will see the Noon Player Character script in the Inspector.  There will be a box for Dialog Box.  Grab the Canvas under Jambi in the heirarchy and put it in that box.  This should work.  The [picture](https://github.com/MichaelTMiyoshi/RubyUnityTutorial/blob/main/Images/NPCScript-DialogBox.png) is below:
 
 ![CanvasHeirarchy](https://github.com/MichaelTMiyoshi/RubyUnityTutorial/blob/main/Images/NPCScript-DialogBox.png)
+
+## Part 14 Audio
+
+### 2022TutorialPart14Audio

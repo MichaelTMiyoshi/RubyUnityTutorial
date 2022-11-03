@@ -167,3 +167,7 @@ I actually did not miss anything.  Or perhaps I did have a problem somewhere.  A
 
 The mask works well.  I will say that I did one thing yesterday when I was creating the mask.  I actually put the image into the image slot of the mask.  Which is not what you are supposed to do.  I also removed a component or did something else that I do not quite remember what it was.  Which is why I decided to do the mask part of the tutorial again.  It worked well once I got it all done correctly.  Again, remember the heirarchy.  I changed things to see what happened and noticed that problems occur when the mask is a child of the image (of Ruby).
 
+## Part 13 World Interactions - Dialog Raycast
+
+### 2022TutorialPart13WorldInteractions-DialogRaycast
+

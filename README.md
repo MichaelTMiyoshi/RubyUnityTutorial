@@ -171,3 +171,16 @@ The mask works well.  I will say that I did one thing yesterday when I was creat
 
 ### 2022TutorialPart13WorldInteractions-DialogRaycast
 
+I tried to add Jambi to the heirarchy, but it was all full and I could not just add it by putting the sprite onto the scene name.  So instead, I just added the sprite to the scene by dragging and dropping.  I used the sprite sheet (the part to the left of the arrow), and it just made the animation.  I just had to name it and put it into the animation folder.  I renamed the asset in the heirarchy to make it look better.  And I remembered that I could rename assets in the heirarchy or the inspector.
+
+When making the canvas, I had to change my width and height to 3, 2 rather than the dimensions given (300, 200).  I then moved the center of the canvas by hand (grabbed the circle).
+
+There is a statement in section 6 Displaying Dialog that is unclear to me:
+
+```10.  Don’t forget to assign the Canvas child of Jambi in the “Dialog Box” setting in the NonPlayerCharacter script in the Inspector. ```
+
+Okay.  What this means is fairly straight forward.  I just had to read it a bunch of times.
+
+Start by selecting Jambi.  Make sure you are in the prefab editing mode.  You will see the Noon Player Character script in the Inspector.  There will be a box for Dialog Box.  Grab the Canvas under Jambi in the heirarchy and put it in that box.  This should work.  The [picture](https://github.com/MichaelTMiyoshi/RubyUnityTutorial/blob/main/Images/NPCScript-DialogBox.png) is below:
+
+![CanvasHeirarchy](https://github.com/MichaelTMiyoshi/RubyUnityTutorial/blob/main/Images/NPCScript-DialogBox.png)

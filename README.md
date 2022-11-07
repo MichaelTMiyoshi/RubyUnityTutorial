@@ -188,3 +188,7 @@ Start by selecting Jambi.  Make sure you are in the prefab editing mode.  You wi
 ## Part 14 Audio
 
 ### 2022TutorialPart14Audio
+
+Going through to the fourth section is straightforward.  Will add sound to the throwing and other things at a later time.
+
+(I did notice that I get a NullReferenceException when I run the program, but it does not crash the program.  It is strange, but I am not sure what is happening.  At least not yet.)

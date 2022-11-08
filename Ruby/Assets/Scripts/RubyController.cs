@@ -25,6 +25,7 @@ public class RubyController : MonoBehaviour
     public GameObject projectilePrefab;
 
     AudioSource audioSource;
+    public AudioClip audioClip;
 
     // Start is called before the first frame update
     void Start()
@@ -112,6 +113,7 @@ public class RubyController : MonoBehaviour
         projectile.Launch(lookDirection, 300);
 
         animator.SetTrigger("Launch");
+        PlaySound(audioClip);
     }
 
     public void PlaySound(AudioClip clip)

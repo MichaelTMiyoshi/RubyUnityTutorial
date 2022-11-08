@@ -192,3 +192,9 @@ Start by selecting Jambi.  Make sure you are in the prefab editing mode.  You wi
 Going through to the fourth section is straightforward.  Will add sound to the throwing and other things at a later time.
 
 (I did notice that I get a NullReferenceException when I run the program, but it does not crash the program.  It is strange, but I am not sure what is happening.  At least not yet.)
+
+Straightforward adding sound to RubyController from the tutorial.  Ruby throws cogs and makes sounds.
+
+Some of the reading for section 8 is a bit confusing.  That is, it is confusing if you take the first part as instruction.  If you read it as explanation, it is okay.  The second section is the instruction and works as it should.
+
+I removed the Audio Listener from the camera as the instructions said.  Could not hear anything, which made sense.  Added it back in (undo).

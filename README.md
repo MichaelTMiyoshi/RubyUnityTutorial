@@ -198,3 +198,11 @@ Straightforward adding sound to RubyController from the tutorial.  Ruby throws c
 Some of the reading for section 8 is a bit confusing.  That is, it is confusing if you take the first part as instruction.  If you read it as explanation, it is okay.  The second section is the instruction and works as it should.
 
 I removed the Audio Listener from the camera as the instructions said.  Could not hear anything, which made sense.  Added it back in (undo).
+
+## Part 15 Distribute
+
+### 2022TutorialPart15Distribute
+
+Section 3: I did not find the Display Resolution Dialog check mark in the player section where it said.  So I ignored that part.
+
+Created builds for both macOS and Windows.  The GitHub Desktop interface did not look like it had enough folders and files.

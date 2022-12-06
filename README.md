@@ -206,3 +206,5 @@ I removed the Audio Listener from the camera as the instructions said.  Could no
 Section 3: I did not find the Display Resolution Dialog check mark in the player section where it said.  So I ignored that part.
 
 Created builds for both macOS and Windows.  The GitHub Desktop interface did not look like it had enough folders and files.
+
+The built files are too big for GitHub.  I did not do all the large file stuff.  I wanted to see if the whole project could be done and kept up to date without it.  Which it was able to do until building.  Still, the Ruby tutorial up to this point worked well with GitHub.
